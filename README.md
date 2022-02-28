@@ -8,6 +8,10 @@ Configure RHEL/Rocky/AlmaLinux machine to be [CIS](https://www.cisecurity.org/ci
 
 Based on [CIS RedHat Enterprise Linux 8 Benchmark v1.0.1 - 05-19-2021 ](https://www.cisecurity.org/cis-benchmarks/)
 
+## Join us
+
+On our [Discord Server](https://discord.gg/JFxpSgPFEJ) to ask questions, discuss features, or just chat with other Ansible-Lockdown users
+
 ## Caution(s)
 
 This role **will make changes to the system** which may have unintended concequences. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
