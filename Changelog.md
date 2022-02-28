@@ -1,5 +1,13 @@
 # Changes to rhel8CIS
 
+
+## 1.3.5
+
+- added collections basics
+- migrated workflow pipeline - many updates
+- updated workflows to allow remote PRs
+- License date
+
 ## 1.3.4
 
 - CentOS no longer supported due to moving to Stream updates
