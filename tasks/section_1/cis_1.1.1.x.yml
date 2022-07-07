@@ -6,7 +6,7 @@
         lineinfile:
             path: /etc/modprobe.d/CIS.conf
             regexp: "^(#)?install cramfs(\\s|$)"
-            line: "install cramfs /bin/true"
+            line: "install cramfs /bin/false"
             create: yes
             mode: 0600
 
@@ -32,7 +32,7 @@
         lineinfile:
             path: /etc/modprobe.d/CIS.conf
             regexp: "^(#)?install squashfs(\\s|$)"
-            line: "install squashfs /bin/true"
+            line: "install squashfs /bin/false"
             create: yes
             mode: 0600
 
@@ -58,7 +58,7 @@
         lineinfile:
             path: /etc/modprobe.d/CIS.conf
             regexp: "^(#)?install udf(\\s|$)"
-            line: "install udf /bin/true"
+            line: "install udf /bin/false"
             create: yes
             mode: 0600
 
