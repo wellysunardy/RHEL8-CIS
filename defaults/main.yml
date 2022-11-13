@@ -361,6 +361,7 @@ rhel8cis_rule_6_2_15: true
 rhel8cis_rule_6_2_16: true
 
 # Not Applicable
+# you may need to revisit this section
 
 # Deviate
 
